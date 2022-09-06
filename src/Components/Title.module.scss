@@ -1,0 +1,27 @@
+@import "../Variables/Variables.scss";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: $lightest-slate;
+  font-weight: 800;
+  font-size: 3.2rem;
+  word-spacing: 1rem;
+}
+
+.numbers {
+  color: $green;
+  margin-right: 2rem;
+  font-weight: 300;
+}
+
+.line {
+  background-color: $dark-slate;
+  border: 1px solid $navy;
+  height: 0.3rem;
+  width: 40rem;
+  margin-left: 3rem;
+}

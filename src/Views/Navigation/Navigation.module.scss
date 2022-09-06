@@ -1,0 +1,72 @@
+@import "../../Variables/Variables.scss";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  background-color: rgba($navy, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px -10px $navy-shadow;
+}
+
+.navWrapper {
+  display: flex;
+  width: 92%;
+}
+
+.links {
+  width: 100%;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style-type: none;
+  &:not(:first-child) {
+    justify-content: flex-end;
+  }
+}
+
+.link {
+  padding: 1rem;
+  color: $lightest-slate;
+  transition: color 0.2s;
+
+  &:hover {
+    color: $green;
+    cursor: pointer;
+  }
+
+  &:not(:first-child) {
+    margin-left: 2rem;
+  }
+
+  &__numbers {
+    color: $green;
+    margin-right: 0.7rem;
+  }
+
+  &__logo {
+    color: $green;
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: -0.34rem;
+    border: 2px solid $green;
+    padding: 1rem;
+    border-radius: 50px;
+    transition: all 0.1s;
+    &:hover {
+      background-color: $lightest-navy;
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  .wrapper {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,58 @@
+@import "../../Variables/Variables.scss";
+
+.wrapper {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+.contactWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.heading {
+  color: $green;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.5rem;
+  span {
+    letter-spacing: 0.1rem;
+    margin-right: 1.5rem;
+  }
+}
+.title {
+  color: $lightest-slate;
+  font-size: $fontSize2;
+  margin: 0;
+}
+
+.desc {
+  padding: 2rem;
+  font-size: $fontSize5;
+  color: $slate;
+  text-align: center;
+}
+
+.built {
+  color: $slate;
+  padding: 20rem 0rem 2rem 0rem;
+  font-size: $fontSize7;
+}
+
+@media only screen and (max-width: 868px) {
+  .contactWrapper {
+    width: 60%;
+  }
+
+  .title {
+    font-size: $fontSize3;
+  }
+
+  .desc {
+    font-size: $fontSize6;
+  }
+}

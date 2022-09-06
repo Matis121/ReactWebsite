@@ -1,0 +1,29 @@
+:root {
+  --navy: #0a192f;
+  --slate: #8892b0;
+}
+
+::-webkit-scrollbar {
+  width: 2rem !important;
+}
+
+::-webkit-scrollbar-track {
+  margin-block: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--slate);
+  border-radius: 2.5rem;
+  border: 6px solid var(--navy);
+  height: 100px !important;
+}
+
+.margin {
+  margin: 0rem 7rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .margin {
+    margin: 0rem 0rem;
+  }
+}

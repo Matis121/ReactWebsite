@@ -1,0 +1,94 @@
+@import "../../Variables/Variables.scss";
+
+.wrapper {
+  padding: 35rem;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    width: 60%;
+    background-image: url("https://halcyon-theme.netlify.app/static/demo-30184fa83cb4ab8fb7809cf95cc8aec3.png");
+    border: 1px solid $green;
+    border-radius: 5px;
+    opacity: 0.5;
+    background-size: cover;
+    z-index: -10;
+  }
+
+  &__right {
+    width: 40%;
+    text-align: right;
+    &_feature {
+      color: $green;
+      font-weight: 200;
+      font-size: $fontSize5;
+    }
+    &_title {
+      color: $lightest-slate;
+      font-weight: 700;
+      font-size: $fontSize4;
+    }
+    &_desc {
+      color: $slate;
+      font-weight: 300;
+      font-size: $fontSize6;
+      padding: 2rem;
+      background-color: $light-navy;
+      border-radius: 5px;
+      box-shadow: 0 10px 30px -15px var(--navy-shadow);
+      margin-left: -10rem;
+    }
+    &_specs {
+      display: flex;
+      justify-content: flex-end;
+      text-decoration: none;
+      list-style-type: none;
+      color: $slate;
+      font-size: $fontSize8;
+      font-weight: 400;
+      &_spec {
+        padding: 2rem;
+        &:last-child {
+          padding: 2rem 0rem 2rem 2rem;
+        }
+      }
+    }
+    &_links {
+      color: $slate;
+      font-weight: 300;
+      font-size: $fontSize5;
+    }
+  }
+}
+
+@media only screen and (max-width: 1570px) {
+  .wrapper {
+    padding: 30rem 20rem;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1430px) {
+  .wrapper {
+    padding: 40rem 10rem;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .wrapper {
+    padding: 30rem 5rem;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .wrapper {
+    padding: 40rem 5rem;
+    margin: 0;
+  }
+}

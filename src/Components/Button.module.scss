@@ -1,0 +1,17 @@
+@import "../Variables/Variables.scss";
+
+.button {
+  font-size: $fontSize7;
+  background-color: $navy;
+  color: $green;
+  padding: 1.2rem 2rem;
+  border: 1px solid $green;
+  border-radius: 0.6rem;
+  transition: all 0.2s;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $lightest-navy;
+    cursor: pointer;
+  }
+}

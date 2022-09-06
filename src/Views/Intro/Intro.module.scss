@@ -1,0 +1,98 @@
+@import "../../Variables/Variables.scss";
+
+.color {
+  color: $lightest-slate;
+}
+
+.wrapper {
+  height: 100vh;
+  padding: 20rem 35rem;
+}
+
+.lightestSlate {
+  color: $lightest-slate;
+  font-weight: 900;
+  font-size: $fontSize1;
+  letter-spacing: 0.1rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.lightSlate {
+  color: $light-slate;
+  font-weight: 800;
+  font-size: $fontSize1;
+  letter-spacing: 0.1rem;
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+
+.slate {
+  color: $slate;
+  font-weight: 400;
+  font-size: $fontSize5;
+}
+
+.green {
+  color: $green;
+  font-weight: 200;
+  font-size: $fontSize5;
+}
+
+.textWrapper {
+  width: 60%;
+  line-height: 3rem;
+}
+
+.marginTop {
+  margin-top: 7rem;
+}
+
+span {
+  color: $green;
+}
+
+@media only screen and (max-width: 1430px) {
+  .lightestSlate {
+    font-size: $fontSize2;
+  }
+
+  .lightSlate {
+    font-size: $fontSize2;
+  }
+
+  .slate {
+    font-size: $fontSize6;
+  }
+
+  .green {
+    font-size: $fontSize6;
+  }
+}
+
+@media only screen and (max-width: 1335px) {
+  .wrapper {
+    height: 100vh;
+    padding: 15rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .lightestSlate {
+    font-size: $fontSize2;
+  }
+
+  .lightSlate {
+    font-size: $fontSize2;
+  }
+
+  .slate {
+    font-size: $fontSize6;
+  }
+
+  .green {
+    font-size: $fontSize6;
+  }
+}
