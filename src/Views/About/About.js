@@ -37,9 +37,9 @@ const About = () => {
             <li>Redux</li>
           </ul>
         </div>
-        <div className={styles.side__right}>
+        {/* <div className={styles.side__right}>
           <img src={Mylogo} alt="MyPhoto" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
