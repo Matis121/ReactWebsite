@@ -3,11 +3,11 @@
 .wrapper {
   color: $light-slate;
   position: fixed;
+  bottom: -50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  height: 110vh;
   width: 30px;
 }
 

@@ -1,9 +1,11 @@
 @import "../../Variables/Variables.scss";
 
 .wrapper {
-  height: 40vh;
-  width: 100%;
-  padding: 0rem 40rem;
+  height: 45vh;
+  padding: 0rem 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .sides {
